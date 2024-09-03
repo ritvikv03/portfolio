@@ -79,12 +79,12 @@ const Main = () => {
         <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
           <h1 className={`mb-4 text-3xl sm:text-4xl lg:text-5xl lg:leading-normal font-extrabold ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
             <span className="bg-clip-text bg-gradient-to-r from-black-400 to-gray-50">
-              Hello, I&apos;m Naresh Vasikarla
+              Hello, I&apos;m Ritvik Vasikarla
             </span>
           </h1>
           <br></br>
           <h2 className={`mb-3 text-1xl sm:text-2xl lg:text-xl lg:leading-normal font-extrabold ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
-              AWS Cloud Architect | Full Stack Developer | Mentor
+              Aspiring Data Scientist | Undergraduate Student
           </h2>
           <p className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
             Drive cloud infrastructure innovation with extensive expertise in AWS and full stack development,

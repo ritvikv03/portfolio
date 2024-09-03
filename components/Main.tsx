@@ -87,11 +87,10 @@ const Main = () => {
               Aspiring Data Scientist | Undergraduate Student
           </h2>
           <p className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
-            Drive cloud infrastructure innovation with extensive expertise in AWS and full stack development,
-            championing cloud-based solutions with agile methodologies and CI/CD principles, while mentoring teams to
-            foster excellence and continuous learning, all with a readiness to tackle any challenge with positivity and
-            advanced technical acumen.
-          </p>
+          As an Economics and Statistics major with a Mathematics minor at Texas A&M, I excel in quantitative analysis and data interpretation. 
+          My leadership in the Texas A&M Economics Society showcases my adaptability and ability to drive engagement in complex concepts. 
+          With expertise in econometrics and predictive modeling using R and Python, I'm eager to tackle real-world data challenges and contribute to data-driven decision-making.
+</p>
         </div>
         <motion.div
           initial={{opacity: 0, scale: 0.5}}
@@ -101,9 +100,9 @@ const Main = () => {
         >
           <div
             className={`rounded-full ${theme === 'dark' ? 'bg-[#181818]' : 'bg-white'} w-[250px] h-[250px] lg:w-[250px] lg:h-[250px] relative`}>
-            <Link href={"https://linkedin.com/in/nareshvasikarla"} target={'_blank'}>
+            <Link href={"https://linkedin.com/in/ritvikvasikarla"} target={'_blank'}>
               <Image
-                src="/images/NV1.jpg"
+                src="/images/rvlogo.jpg"
                 alt="hero image"
                 className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={250}

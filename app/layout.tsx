@@ -10,7 +10,7 @@ const LayoutContent = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en" className={theme}>
     <head>
-      <title>Naresh Vasikarla's Profile</title>
+      <title>Ritvik Vasikarla's Profile</title>
       <link rel="icon" href="/NV.jpg" sizes="any"/>
     </head>
     <body className={`dark:bg-black-100 ${theme}`}>

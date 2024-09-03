@@ -19,34 +19,32 @@ const AboutMe: FC<AboutMeProps> = ({}) => {
           </h2>
           <div className="flex flex-col justify-between">
             <p aria-label={'self-description'} className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
-              I am Naresh Vasikarla, and my journey in IT began with Oracle, where I specialized in the Oracle HCM suite
-              and collaborated with diverse clients. My career has taken me from Switzerland, working with the ILO, to
-              consulting in the USA, and now, to a role at Liberty Mutual. Over the past seven years, I have transitioned
-              into a full-stack developer role with a focus on AWS technologies, honing my skills in React, TypeScript,
-              and
+              I am Ritvik Vasikarla, I am an undergraduate Economics and Statistics major with a minor in Mathematics at Texas A&M University, aspiring to be a data scientist who drives innovation by developing cutting-edge algorithms and models. 
+              My passion lies in exploring new methodologies in machine learning and artificial intelligence to unlock unprecedented insights from data.
               JavaScript.
             </p>
             <p className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
-              With a strong foundation in JavaScript and React.js, I have successfully built dynamic web applications
-              and
-              developed user-facing features. My experience includes creating reusable components and front-end
-              libraries,
-              translating designs into high-quality code, and optimizing performance across various devices and
-              browsers. My
-              expertise extends to Redux, React hooks, integrating RESTful APIs, and modern authorization mechanisms
-              like
+            Throughout my academic journey, I have engaged in various projects that reflect my commitment to pushing the boundaries of what's possible. 
+            I've written a replication paper on Nathan Nunn's study, "The Long-Term Effects of Africa's Slave Trades," where we utilized double lasso regression and instrumental variables to enhance the analysis. 
+            I have also developed a deep learning model to predict ratings from TripAdvisor reviews using NLP tools and created a stock price forecasting model using data from Yahoo Finance. 
+            Additionally, I built a bot to compare professors using a RateMyProfessor API, assisting students in making informed decisions.
+
+
+
+
               JSON Web Tokens.
             </p>
             <p className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
-              My AWS experience includes working with DynamoDB, Aurora RDS, SQS, SNS, Lambda, and API Gateway. I have
-              designed and implemented scalable serverless applications, managed data storage solutions, and integrated
-              various AWS services to build robust and efficient systems.
+            Currently, I'm an undergraduate research assistant, contributing to a study on the political affiliation's impact on electric vehicle implementation. 
+            My technical proficiency spans across SQL, Stata, Excel, R, and Python, enabling me to tackle complex data challenges with confidence.
+
+
             </p>
             <p className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
-              I am well-versed in front-end development and adept at understanding business requirements to craft
-              precise
-              technical specifications. My proficiency & adaptability ensures smooth collaboration within development
-              teams.
+            My career goal is to lead in the development of breakthrough technologies and transformative business strategies, particularly in fields like healthcare, finance, and sustainability. 
+            I am committed to continuous learning and staying at the forefront of technological advancements, with the ultimate aspiration to foster a culture of innovation within a team.
+
+
             </p>
             <p className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
               Driven by a passion for continuous learning and mentoring, I bring a positive attitude and a commitment to
@@ -62,9 +60,9 @@ const AboutMe: FC<AboutMeProps> = ({}) => {
         >
           <div
             className={`rounded-full ${theme === 'dark' ? 'bg-[#181818]' : 'bg-white'} w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative`}>
-            <Link href={"https://linkedin.com/in/nareshvasikarla"} target={'_blank'}>
+            <Link href={"https://linkedin.com/in/ritvikvasikarla"} target={'_blank'}>
               <Image
-                src="/images/NV1.jpg"
+                src="/images/rvlogo.jpg"
                 alt="hero image"
                 className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={400}

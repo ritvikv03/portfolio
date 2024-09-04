@@ -15,7 +15,7 @@ const AboutMe: FC<AboutMeProps> = ({}) => {
         <div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
           <h2 aria-label={"about-me"}
             className={`mb-3 text-1xl sm:text-2xl lg:text-3xl lg:leading-normal font-extrabold ${theme === 'dark' ? 'text-white' : 'text-black'}`}>
-            About my Journey in IT.
+            About my Journey in Data Science.
           </h2>
           <div className="flex flex-col justify-between">
             <p aria-label={'self-description'} className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>

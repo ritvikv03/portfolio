@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useTheme } from '@/app/themecontext';
 import {
-  FaReact, FaNodeJs, FaAws, FaDocker, FaDatabase, FaJava, FaGithub, FaBitbucket, FaJenkins, FaCss3Alt, FaHtml5, FaGitAlt, FaToolbox, FaCloud, FaCode
+  FaReact, FaNodeJs, FaAws, FaDocker, FaDatabase, FaJava, FaGithub, FaBitbucket, FaJenkins, FaCss3Alt, FaHtml5, FaGitAlt, FaToolbox, FaCloud, FaCode, FaRProject, FaJs, FaCuttlefish, FaPython
 } from 'react-icons/fa';
 import { SiTypescript, SiGraphql, SiApollographql, SiSpring, SiThymeleaf, SiRedux, SiJquery, SiPostgresql, SiSequelize, SiExpress, SiAuth0, SiJest, SiIntellijidea, SiOracle, SiAzuredevops, SiMicrosoftazure } from 'react-icons/si';
 
@@ -12,49 +12,24 @@ const TechStack = () => {
 
   const categories = {
     'Front-end': [
-      { icon: <FaReact size={24} className="text-blue-400" />, name: 'React' },
-      { icon: <SiTypescript size={24} className="text-blue-400" />, name: 'TypeScript' },
-      { icon: <SiRedux size={24} className="text-purple-400" />, name: 'Redux' },
-      { icon: <SiJquery size={24} className="text-blue-400" />, name: 'jQuery' },
+      { icon: <FaJs size={24} className="text-yellow-500" />, name: 'Javascript' },
       { icon: <FaCss3Alt size={24} className="text-blue-400" />, name: 'CSS3' },
       { icon: <FaHtml5 size={24} className="text-orange-400" />, name: 'HTML5' },
     ],
     'Back-end': [
-      { icon: <FaNodeJs size={24} className="text-green-400" />, name: 'Node.js' },
+      { icon: <FaCuttlefish size={24} className="text-blue-400" />, name: 'C++' },
       { icon: <FaJava size={24} className="text-red-400" />, name: 'Java' },
-      { icon: <SiSpring size={24} className="text-green-400" />, name: 'Spring' },
-      { icon: <SiExpress size={24} className="text-black" />, name: 'Express' },
-      { icon: <SiGraphql size={24} className="text-pink-400" />, name: 'GraphQL' },
-      { icon: <FaCode size={24} className="text-blue-400" />, name: 'REST API' },
-    ],
+      { icon: <FaPython size={24} className="text-yellow-400"/>, name: 'Python' },
+      { icon: <FaRProject size={24} className="text-red-400" />, name: 'R' },
+      { icon: <FaNodeJs size={24} className="text-green-400" />, name: 'Node.js' },
+      { icon: <FaReact size={24} className="text-blue-400" />, name: 'React.js' },
+    ],  
     'Databases': [
-      { icon: <FaDatabase size={24} className="text-gray-400" />, name: 'Database' },
-      { icon: <SiPostgresql size={24} className="text-blue-400" />, name: 'PostgreSQL' },
-      { icon: <SiOracle size={24} className="text-red-400" />, name: 'Oracle' },
-    ],
-    'ORM': [
-      { icon: <SiSequelize size={24} className="text-blue-400" />, name: 'Sequelize' },
-    ],
-    'AWS': [
-      { icon: <FaCloud size={24} className="text-blue-400" />, name: 'EC2' },
-      { icon: <FaCloud size={24} className="text-blue-400" />, name: 'S3' },
-      { icon: <FaCloud size={24} className="text-blue-400" />, name: 'RDS' },
-      { icon: <FaCloud size={24} className="text-blue-400" />, name: 'Lambda' },
-      { icon: <FaCloud size={24} className="text-blue-400" />, name: 'API Gateway' },
-    ],
-    'Azure': [
-      { icon: <SiMicrosoftazure size={24} className="text-blue-400" />, name: 'Azure Entra' },
-    ],
-    'Tools': [
-      { icon: <FaDocker size={24} className="text-blue-400" />, name: 'Docker' },
-      { icon: <FaGithub size={24} className="text-black" />, name: 'GitHub' },
-      { icon: <FaBitbucket size={24} className="text-blue-400" />, name: 'Bitbucket' },
-      { icon: <SiIntellijidea size={24} className="text-blue-400" />, name: 'IntelliJ IDEA' },
-      { icon: <FaToolbox size={24} className="text-gray-400" />, name: 'GitHub Actions' },
-    ],
+      { icon: <FaDatabase size={24} className="text-orange-400" />, name: 'SQL' },
+    ],  
     'Testing': [
       { icon: <SiJest size={24} className="text-red-400" />, name: 'Jest' },
-    ],
+    ], 
   };
 
   return (

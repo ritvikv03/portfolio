@@ -23,7 +23,9 @@ import {
   FaPython,
   FaJs,
   FaRProject,
-  FaCuttlefish
+  FaCuttlefish,
+  FaFileExcel,
+  FaChartLine
 } from 'react-icons/fa';
 import { SiTypescript, SiGraphql, SiApollographql, SiSpring, SiThymeleaf, SiRedux, SiJquery, SiPostgresql, SiSequelize, SiExpress, SiAuth0, SiJest, SiIntellijidea, SiOracle, SiAzuredevops, SiMicrosoftazure } from 'react-icons/si';
 
@@ -50,7 +52,11 @@ const Main = () => {
     'Testing': [
       { icon: <SiJest size={24} className="text-red-400" />, name: 'Jest' },
     ],
-    
+    'Other': [
+      { icon: <FaFileExcel size={24} className="text-green-600" />, name: 'Excel' },
+      { icon: <FaChartLine size={24} className="text-blue-600" />, name: 'Stata' },
+
+    ],
   };
 
   return (

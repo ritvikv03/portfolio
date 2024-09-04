@@ -21,7 +21,7 @@ const AboutMe: FC<AboutMeProps> = ({}) => {
             <p aria-label={'self-description'} className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
               I am Ritvik Vasikarla, I am an undergraduate Economics and Statistics major with a minor in Mathematics at Texas A&M University, aspiring to be a data scientist who drives innovation by developing cutting-edge algorithms and models. 
               My passion lies in exploring new methodologies in machine learning and artificial intelligence to unlock unprecedented insights from data.
-              JavaScript.
+              
             </p>
             <p className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
             Throughout my academic journey, I have engaged in various projects that reflect my commitment to pushing the boundaries of what's possible. 
@@ -32,7 +32,6 @@ const AboutMe: FC<AboutMeProps> = ({}) => {
 
 
 
-              JSON Web Tokens.
             </p>
             <p className={`text-justify text-base sm:text-lg mb-6 lg:text-xl ${theme === 'dark' ? 'text-[#ADB7BE]' : 'text-black'}`}>
             Currently, I'm an undergraduate research assistant, contributing to a study on the political affiliation's impact on electric vehicle implementation. 

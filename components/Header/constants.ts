@@ -4,7 +4,7 @@ export const HeaderNavs: HeaderNav[] = [
   {
     id: 1,
     value: "Resume",
-    href: "/docs/Ritvik_Resume.pdf",
+    href: "/docs/24_Resume.pdf",
   },
   // {
   //   id: 2,

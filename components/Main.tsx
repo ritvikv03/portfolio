@@ -88,7 +88,7 @@ const Main = () => {
             className={`rounded-full ${theme === 'dark' ? 'bg-[#181818]' : 'bg-white'} w-[250px] h-[250px] lg:w-[250px] lg:h-[250px] relative`}>
             <Link href={"https://linkedin.com/in/ritvikvasikarla"} target={'_blank'}>
               <Image
-                src="/images/rvlogo.jpg"
+                src="/images/rvlogo.jpeg"
                 alt="hero image"
                 className="rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={250}
